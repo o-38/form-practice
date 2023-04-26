@@ -24,13 +24,14 @@
                 名字
                 <span class="required">※</span>
               </label>
-              <input class="input-box" type="text" id="family_name" name="name" required />
+              <input class="input-box" type="text" id="family_name" name="name" autocomplete="family-name" required>
             </div>
             <div class="personal-box">
-              <label class="label_text" for="given_name">名前
+              <label class="label_text" for="given_name">
+                名前
                 <span class="required">※</span>
               </label>
-              <input class="input-box" type="text" id="given_name" name="name" required />
+              <input class="input-box" type="text" id="given_name" name="name" autocomplete="given-name" required>
             </div>
             <div class="personal-box">
               <label class="label_text" for="birth">生年月日
@@ -88,20 +89,21 @@
               </div>
             </div>
             <div class="personal-box">
-              <p class="label_text">性別
+              <p class="label_text">
+                性別
                 <span class="required">※</span>
               </p>
               <div class="gender_area">
                 <label class="radiobox">
-                  <input class="ge_area" type="radio" name="lavel" value="男性"  required/>
+                  <input class="ge_area" type="radio" name="lavel" value="男性">
                   <span>男性</span>
                 </label>
                 <label class="radiobox">
-                  <input class="ge_area" type="radio" name="lavel" value="女性"  required/>
+                  <input class="ge_area" type="radio" name="lavel" value="女性">
                   <span>女性</span>
                 </label>
                 <label class="radiobox">
-                  <input class="ge_area" type="radio" name="lavel" value="女性"  required/>
+                  <input class="ge_area" type="radio" name="lavel" value="女性">
                   <span>その他</span>
                 </label>
               </div>
@@ -124,25 +126,29 @@
           <div class="account">
             <h3 class="title3">アカウント情報</h3>
             <div class="account-box">
-            <label class="label_text" for="account_name">アカウント名
+            <label class="label_text" for="account_name">
+              アカウント名
               <span class="required">※</span>
             </label>
-            <input class="input-box" type="text" id="account_name" name="name" required />
+            <input class="input-box" type="text" id="account_name" required>
           </div>
           <div class="account-box">
-            <label class="label_text" for="email">メールアドレス
+            <label class="label_text" for="email">
+              メールアドレス
               <span class="required">※</span>
             </label>
-            <input class="input-box" type="email" id="email" autocomplete="email" required />
+            <input class="input-box" type="email" id="email" autocomplete="email" required>
           </div>
           <div class="account-box">
-            <label class="label_text" for="password">パスワード
+            <label class="label_text" for="password">
+              パスワード
               <span class="required">※</span>
             </label>
             <input class="input-box" type="password" id="password" required />
           </div>
           <div class="account-box">
-            <label class="label_text"  for="check_password">確認用パスワード
+            <label class="label_text"  for="check_password">
+              確認用パスワード
               <span class="required">※</span>
             </label> 
             <input class="input-box" type="password" id="check_password" required />
@@ -156,7 +162,8 @@
               <input class="input-box" type="text" id="address" required />
             </div>
             <div class="address-box">
-              <label class="label_text" for="phonenumber">電話番号
+              <label class="label_text" for="tel">
+                電話番号
                 <span class="required">※</span>
               </label>
               <input class="input-box" type="tel" id="tel" autocomplete="tel" required />
